@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "myprotfolio-76312"
+  },
+  "targets": {
+    "myprotfolio-76312": {
+      "hosting": {
+        "gswarrier": [
+          "gswarrier"
+        ],
+        "govindswarrier": [
+          "govindswarrier"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

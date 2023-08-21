@@ -1,0 +1,958 @@
+-------------------------------html--------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="center" id="preloader">
+        <div class="ring"></div>
+        <span>loading....</span>
+    </div>
+  <section class="hero">
+    <nav>
+        <img src="assets/img/logo.png" class="logo">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="main-container">
+        <div class="main-text">
+            <h1>I'm a <br><span class="input"></span></h1>
+            <p>Also Leader, Movie lover, public speaker.</p>
+            <button type="button">about me</button>
+        </div>
+
+        <div class="main-img">
+            <img src="assets/img/main.png">
+        </div> 
+    </div>
+   
+  </section>
+  <section class="about">
+    <div class="about-container">
+        <div class="about-image">
+        <img src="assets/img/DNA_0192.JPG" >
+        </div>
+        <div class="about-text">
+            <h1 class="title-1">About <span class="title-2">Me</span></h1>
+            <p>Hello! I am Govind S Warrier, an ambitious and innovative electrical engineering graduate with a passion for technology and problem-solving. Throughout my academic journey, 
+                I have developed a strong foundation in electrical and electronics engineering, along with a focus on robotics, IoT, and embedded systems. 
+                My projects and coursework have provided me with hands-on experience in designing, programming, and integrating cutting-edge technologies. 
+                I thrive in dynamic and collaborative environments, and I am always eager to take on new challenges. My dedication to excellence and continuous learning drives me to stay up-to-date with the latest advancements in the field. 
+                As I embark on my professional journey, I am excited to contribute my skills and creativity to solving real-world challenges and making
+                a positive impact in the world of technology.</p>
+        </div>
+    </div>
+    
+    <div class="education">
+        <div class="education-box">
+          <h2>University Degree</h2>
+          <p>University Name</p>
+          <p>Graduation Year</p>
+        </div>
+        
+        <div class="education-box">
+          <h2>High School Diploma</h2>
+          <p>High School Name</p>
+          <p>Graduation Year</p>
+        </div>
+
+        <div class="education-box">
+            <h2>High School Diploma</h2>
+            <p>High School Name</p>
+            <p>Graduation Year</p>
+        </div>
+        
+        <!-- Add more education boxes here if needed -->
+    </div>
+
+    <div class="inner">
+        <div class="header">
+            <h1>My Technical Skills</h1>
+        </div>
+        <div class="container">
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="assets/icon/logo-python.svg">
+                    </div>
+                    <h3>Python</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="assets/icon/c.svg">
+                    </div>
+                    <h3>C-Programming</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="assets/icon/cplusplus.svg">
+                    </div>
+                    <h3>C++</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="assets/icon/html5.svg">
+                    </div>
+                    <h3>Html</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="assets/icon/css3.svg">
+                    </div>
+                    <h3>CSS</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="assets/icon/arduino.svg">
+                    </div>
+                    <h3>Arduino</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="assets/icon/ros.svg">
+                    </div>
+                    <h3>ROS</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="assets/icon/visualstudiocode.svg">
+                    </div>
+                    <h3>VS-Code</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="assets/icon/raspberrypi.svg">
+                    </div>
+                    <h3>Rasberry Pi</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="assets/icon/logo-github.svg">
+                    </div>
+                    <h3>Github</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="assets/icon/adobephotoshop.svg">
+                    </div>
+                    <h3>Photoshop</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="assets/icon/adobeillustrator.svg">
+                    </div>
+                    <h3>Illustrator</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="assets/icon/adobeindesign.svg">
+                    </div>
+                    <h3>Indesign</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="assets/icon/adobeaftereffects.svg">
+                    </div>
+                    <h3>After-effects</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+  <section class="project-section">
+    <h1 class="title-project">About <span class="title-2">Projects</span></h1>
+    <br>
+    <div class="project-items">
+        <div class="project-box" id="project1">
+        <img src="assets/img/projects/esam/esam.jpg" class="imag" alt="Project 1">
+        <div class="project-info">
+            <h3>Project 1 Title</h3>
+            <p>Project 1 Short Description</p>
+        </div>
+        <div class="project-details">
+            <span class="close-button" onclick="closeProjectDetails()"><img src="assets/icon/close-outline.svg" class="close"></span>
+            <div class="gallery-container">
+                <div class="gallery">
+                <img src="assets/img/projects/esam/circuit.jpg" alt="Image 1" class="project-image">
+                <img src="assets/img/projects/esam/device.jpg" alt="Image 2" class="project-image">
+                <img src="assets/img/projects/esam/softwarestack.jpg" alt="Image 3" class="project-image">
+                <img src="assets/img/projects/esam/webui1.png" alt="Image 4" class="project-image">
+                <img src="assets/img/projects/esam/esam.jpg" alt="Image 5" class="project-image">
+                </div>
+                <button id="prevBtn" onclick="prevImage()"><img src="assets/icon/chevron-back-outline.svg" class="button-image"></button>
+                <button id="nextBtn" onclick="nextImage()"><img src="assets/icon/chevron-forward-outline.svg" class="button-image"></button>
+            </div>          
+            <h3>Project 1 Title</h3>
+            <p>Project 1 Long Description and Contents</p>
+        </div>
+        </div>
+
+
+        <div class="project-box" id="project2">
+            <img src="assets/img/projects/esam/esam.jpg" class="imag" alt="Project 2">
+            <div class="project-info">
+                <h3>Project 2 Title</h3>
+                <p>Project 2 Short Description</p>
+            </div>
+            <div class="project-details">
+                <span class="close-button" onclick="closeProjectDetails()"><img src="assets/icon/close-outline.svg" class="close"></span>
+                <div class="gallery-container">
+                    <div class="gallery">
+                    <img src="assets/img/projects/esam/circuit.jpg" alt="Image 1" class="project-image">
+                    <img src="assets/img/projects/esam/device.jpg" alt="Image 2" class="project-image">
+                    <img src="assets/img/projects/esam/softwarestack.jpg" alt="Image 3" class="project-image">
+                    <img src="assets/img/projects/esam/webui1.png" alt="Image 4" class="project-image">
+                    <img src="assets/img/projects/esam/esam.jpg" alt="Image 5" class="project-image">
+                    </div>
+                    <button id="prevBtn" onclick="prevImage()"><img src="assets/icon/chevron-back-outline.svg" class="button-image"></button>
+                    <button id="nextBtn" onclick="nextImage()"><img src="assets/icon/chevron-forward-outline.svg" class="button-image"></button>
+                </div>          
+                <h3>Project 2 Title</h3>
+                <p>Project 2 Long Description and Contents</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Repeat the project-box div for each project -->
+  </section>
+  
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>Contact: your@email.com | Phone: (123) 456-7890</p>
+  </footer>
+
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed(".input", {
+        strings:["Designer","Developer", "Trainer", "Roboticist"],
+        typeSpeed: 120,
+        backSpeed: 110,
+        loop: true
+    })
+  </script>
+  <!-- Your HTML goes here -->
+
+  <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        const projectBoxes = document.querySelectorAll(".project-box");
+
+        projectBoxes.forEach(function(box) {
+            const projectDetails = box.querySelector(".project-details");
+            const closeButton = box.querySelector(".close-button");
+
+            box.addEventListener("click", function() {
+                projectDetails.style.display = "block";
+                // Pause the gallery when project details are shown
+                gallery.style.animationPlayState = "paused";
+            });
+
+            closeButton.addEventListener("click", function(event) {
+                event.stopPropagation();
+                projectDetails.style.display = "none";
+                // Resume the gallery when project details are closed
+                gallery.style.animationPlayState = "running";
+            });
+        });
+    });
+  </script>  
+  <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load",function(){
+        setTimeout(function() {
+            loader.style.display = "none";
+        }, 2000); // 2000 milliseconds = 2 seconds
+    })
+  </script>
+  <!-- If you want to pause the gallery on hover, add this JavaScript -->
+  <script>
+        const gallery = document.querySelector(".gallery");
+        let galleryImages = document.querySelectorAll(".gallery .project-image");
+        let currentIndex = 0;
+        const totalImages = galleryImages.length;
+
+        function showImage(index) {
+            const offset = -index * galleryImages[0].offsetWidth;
+            gallery.style.transform = `translateX(${offset}px)`;
+        }
+
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+            showImage(currentIndex);
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % totalImages;
+            showImage(currentIndex);
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            // Duplicate the gallery images and append them to the gallery
+            const clonedImages = Array.from(galleryImages).map(img => img.cloneNode(true));
+            clonedImages.forEach(img => gallery.appendChild(img));
+
+            // Update the list of gallery images to include the duplicated images
+            galleryImages = document.querySelectorAll(".gallery .project-image");
+
+            // Calculate the total width of the gallery
+            const totalWidth = galleryImages.length * galleryImages[0].offsetWidth;
+
+            // Set the width of the gallery to fit all the images
+            gallery.style.width = `${totalWidth}px`;
+
+            // Show the initial image (currentIndex is 0 by default)
+            showImage(currentIndex);
+
+            // Add event listeners to the "prev" and "next" buttons
+            const prevButton = document.getElementById("prevButton");
+            const nextButton = document.getElementById("nextButton");
+
+            prevButton.addEventListener("click", prevImage);
+            nextButton.addEventListener("click", nextImage);
+        });
+  </script>
+  
+</body>
+</html>
+
+
+
+-------------------------------------------------------------------------
+
+
+-------------------------------css---------------------------------------
+
+
+    /* Reset some default styles to start with a clean slate */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    .center{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+        background: #000;
+        padding-top: 20%;
+    }
+    .ring{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        animation: ring 2s linear infinite;
+    }
+    @keyframes ring{
+        0%{
+            transform: rotate(0deg);
+            box-shadow: 1px 5px 2px #e65c00;
+        }
+        50%{
+            transform: rotate(180deg);
+            box-shadow: 1px 5px 2px #18b201;
+        }
+        100%{
+            transform: rotate(360deg);
+            box-shadow: 1px 5px 2px #2964fa;
+        }
+    }
+    .ring::before{
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        box-shadow: 0 0 5px rgba(255,255,255,0.3);
+    }
+    .center span{
+        color: #737373;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: 200px;
+        animation: text 3s ease-in-out linear;
+    }
+    @keyframes text{
+        0%{
+            color: black;
+        }
+    }
+    .hero{
+        height: 100vh;
+        width: 100%;
+        background-color: #1a1a1a;
+    }
+
+    .logo{
+        width: 90px;
+        height: auto;
+        cursor: pointer;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 35px;
+        padding-left: 12%;
+        padding-right: 12%;
+        position: relative;
+        z-index: 5;
+    }
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 0px 25px;
+        z-index: 7;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        font-size: 17px;
+    }
+    nav ul li a:hover{
+        color: #2964fa;
+        transition: 0.3s;
+    }
+    .main-container{
+        display: inline-block;
+        width: 100%;
+    }
+    .main-text{
+        flex: 1;
+        position: absolute;
+        top: 50%;
+        left: 12%;
+        transform: translateY(-50%);
+    }
+    .main-text h1{
+        font-size: 500%;
+        color: #3c3c3c;
+        font-weight: 800;
+        line-height: 100px;
+    }
+    span{
+        color: white;
+        letter-spacing: 2px;
+
+    }
+    .main-text p{
+        color: #737373;
+        font-weight: 500;
+        font-size: 22p;
+        letter-spacing: 1px;
+        margin: 40px 0px;
+    }
+    button {
+        width: 160px;
+        background-color: #2964fa;
+        padding: 12px 10px;
+        border: none;
+        color: white;
+        font-size: 18px;
+        letter-spacing: 1px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease;
+    }
+      
+    button:hover {
+        background-color: #1a1a1a;
+        border: 1px solid #2964fa;
+        transform: scale(1.05); /* Slightly scale up the button on hover */
+    }
+
+    .main-img{
+        position: absolute;
+        width: auto;
+        height: 100%;
+        bottom: 0;
+        right: 0;
+        text-align: right;
+    }
+
+    .main-img img{
+        height: 100%;
+    }
+    
+    .about{
+        padding-top: 100px;
+        height: auto;
+        width: 100%;
+        background-color: #1a1a1a;
+    }
+    .about .about-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .about-image img{
+        /* position: absolute; */
+        height: 20rem;
+        max-width: 100%;
+        padding-left: 40px;
+        text-align: left;
+    }
+    .about-text{
+        flex: 1;
+        text-align: left;
+        padding: 0px 0px 10px 20px;
+        /* transform: translateX(35%); */
+        top: 0;
+        /* left: 12%; */
+        
+    }
+    .about-text .title-1{
+        width: max-content;
+        color: #2964fa;
+        font-weight: 500;
+        font-size: 40px;
+        letter-spacing: 1px;
+        margin: 2px 0px;
+        cursor: pointer;
+        position: relative;
+    }
+    .about-text span{
+        font-weight: 700;
+    }
+    .about-text .title-1::after{
+        content: "";
+        position: absolute;
+        background-color: #2964fa;
+        height: 4px;
+        width: 0;
+        bottom: -0px;
+        left: 0;
+        transition: 0.3s;
+    }
+    .about-text .title-1:hover:after{
+        width: 100%;
+    }
+    .about-text p{
+        position: relative;
+        color: #737373;
+        width: auto;
+        font-weight: 300;
+        font-size: 22p;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        padding-right: 20px;
+        text-align: justify;
+        word-break: break-all; /* Break words at any character */
+        overflow-wrap: break-word;
+    }
+
+    /* Style the education container */
+    .education {
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 50px;
+        padding: 20px 10% 20px 10%;
+    }
+    
+    /* Style the education boxes */
+    .education-box {
+        width: 300px;
+        height: 150px;
+        /* background: linear-gradient(80deg, #2964fa, #1249d3 ); */
+        border: 2px solid #2964fa;
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        /* box-shadow: -20px 20px 30px #1c52d923; */
+    }
+    
+    .education-box h2 {
+        margin-top: 0;
+        color: #737373;
+    }
+    
+    .education-box p {
+        margin: 5px 0;
+        color: #2964fa;
+    }
+    .inner{
+        padding-top: 20px;
+    }
+    .header{
+        text-align: center;
+        color: #fff;
+        padding: 1rem;
+        position: relative;
+    }
+    .header::after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 4px;
+        width: 100px;
+        background-color: #3c3c3c;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        grid-gap: 1rem;
+        padding: 1rem 80px;
+        font-size: 1.2rem;
+    }
+    .skill-box{
+        padding: 1rem;
+        color: #ddd;
+        cursor: pointer;
+    }
+    .skill-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .skill-title h3{
+        font-size: 80%;
+    }
+    .img img {
+        filter: brightness(0) invert(1); /* Start as white by inverting the colors */
+        width: 3rem;
+        transition: filter 0.3s ease; /* Add smooth transition on hover */
+    }
+    
+    .img img:hover {
+        filter: brightness(1) invert(1) sepia(1) saturate(500000%) hue-rotate(80deg); /* Turn blue on hover */
+    }
+
+
+
+    .project-section {
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding-top: 100px;
+        width: 100%;
+        background-color: #1a1a1a;
+    }
+    
+    .project-section .title-project {
+        width: max-content;
+        color: #2964fa;
+        font-weight: 500;
+        font-size: 40px;
+        letter-spacing: 1px;
+        margin: 2px 0px;
+        cursor: pointer;
+        position: relative;
+    }
+    
+    .project-section .title-project span {
+        font-weight: 700;
+    }
+    
+    .project-section .title-project::after {
+        content: "";
+        position: absolute;
+        background-color: #2964fa;
+        height: 4px;
+        width: 0;
+        bottom: -0px;
+        left: 0%;
+        transition: 0.3s;
+    }
+    
+    .project-section .title-project:hover:after {
+        width: 100%;
+    }
+    .project-section .project-items{
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 50px;
+        padding: 20px 10% 20px 10%;
+    }
+    
+    .project-box {
+        width: 30%;
+        height: 200px; /* Set a fixed height for the boxes */
+        margin-bottom: 20px;
+        position: relative;
+    }
+    
+    .project-box .imag {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        cursor: pointer;
+        transition: transform 0.3s ease; /* Add the transition property for smooth zoom effect */
+    }
+    
+    .project-box:hover .imag {
+        transform: scale(1.1); /* Apply a scale transform on hover to create the zoom effect */
+    }
+    
+    /*---------------------------------------------*/
+
+    
+    /*---------------------------------------------*/
+    .project-info {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        cursor: pointer;
+    }
+      
+    .project-info h3,
+    .project-info p {
+        margin: 0;
+        padding: 10px;
+    }
+      
+    .project-box:hover .project-info {
+        opacity: 1;
+    }
+      
+    .project-details {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: #fdfafada;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        z-index: 1;
+        width: max-content; /* Adjust the width as needed */
+        height: auto;
+        overflow: auto; /* Enable scrolling if the content overflows */
+    }
+      
+    .project-details.active {
+        display: block;
+    }
+    .close-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        color: #2964fa;
+    }
+    .close-button .close{
+        width: 1rem;
+        height: auto;
+    }
+      /* Additional styles for the close button (optional) */
+    .close-button:hover {
+        text-decoration: underline;
+    }
+
+    .gallery-container {
+        width: 100%;
+        padding-top: 10%;
+        position: relative;
+        overflow: hidden; /* Hide any image overflowing from the container */
+        display: flex;
+        align-items: center;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: nowrap;
+        width: max-content;
+        position: relative;
+        transition: transform 0.3s ease-in-out; /* Smooth transition when changing images */
+    }
+
+    .gallery .project-image {
+        width: auto;
+        height: 10rem;
+        object-fit: cover;
+        margin-right: 5px; /* Adjust the spacing between images as needed */
+    }
+
+    #prevBtn,
+    #nextBtn {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 50%;
+        opacity: 0.7;
+        border: none;
+        cursor: pointer;
+        background-color: #ffffff; /* Add a background color to make it circular */
+        border-radius: 50%; /* Make it circular */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #prevBtn {
+        left: 0;
+    }
+    
+    #nextBtn {
+        right: 0;
+    }
+    
+    .gallery #prevBtn .button-image,
+    .gallery #nextBtn .button-image {
+        width: 50px; /* Set the initial width (you can adjust this as needed) */
+        height: auto;
+        transition: transform 0.3s ease-in-out; /* Add a transition for smooth size changes */
+    }
+
+    /* Increase the size of the button images on hover */
+    #prevBtn:hover .button-image,
+    #nextBtn:hover .button-image {
+        transform: scale(1.2); /* Increase the scale to make the images larger (adjust as needed) */
+    }
+    #prevBtn:hover,
+    #nextBtn:hover {
+        opacity: 1;
+    }
+
+    
+
+    @media screen and (max-width: 1550px){
+        .main-img{
+            width: auto;
+            height: 80%;
+        }
+        
+    }
+    @media screen and (max-width: 990px){
+        .container{
+            grid-template-columns: repeat(2, 1fr);
+            padding: 2rem 50px;
+        }
+        .main-img{
+            width: auto;
+            height: 70%;
+        }
+    }
+    @media screen and (max-width:890px){
+        .main-img{
+            width: auto;
+            height: 50%;
+        }
+    }
+
+    @media screen and (max-width: 700px){
+        .main-img{
+            width: auto;
+            height: 40%;
+        }
+        .main-text{
+            left: 8%;
+            transform: translateY(-50%);
+        }
+        .main-text h1{
+            font-size: 350%;
+            font-weight: 700;
+            line-height: 80px;
+        }
+        .container{
+            grid-template-columns: repeat(2, 1fr);
+            padding: 2rem 50px;
+        }
+        .about-container {
+            flex-direction: column;
+          }
+          
+          .about-image img, .about-text {
+            flex: none;
+          }
+          .about-image img{
+            height: 12rem;
+          }
+        .about .about-text p{
+            font-size: 10p;
+        }
+        .project-box {
+            width: 48%; /* Two boxes per row on smaller screens */
+        }
+          
+    }
+    
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+-------------------------------------------------------------------------

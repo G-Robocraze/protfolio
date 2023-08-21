@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AM Robo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="hero">
+        <nav>
+            <img src="../assets/img/logo.png" class="logo">
+            <img src="../assets/icon/home-outline.svg" class="home" id="home">
+        </nav>
+    </section>
+    <section class="gallery">
+        <div class="slider">
+            <div class="box">
+                <img src="../assets/img/projects/allterrain/20200731_003025.jpg" id="slider-1">
+                <img src="../assets/img/projects/allterrain/20200809_152041.jpg" id="slider-2">
+                <img src="../assets/img/projects/allterrain/20200821_001014.jpg" id="slider-3">
+            </div>
+            <div class="slider-nav">
+                <a href="#slider-1"></a>
+                <a href="#slider-2"></a>
+                <a href="#slider-3"></a>
+            </div>
+        </div>
+        
+    </section>
+    <section class="details">
+        <div class="head">
+            <h1 class="title-project1">About <span class="title-project2">AM Robo</span></h1>
+        </div>
+        <p>
+            A-M Robo is a prototype developed as a miniature project for further upgrades. 
+            The hardware is designed like a war tank. With our own designed shock absorbing 
+            tank track system the robo has an ability to travel through tough terrains, 
+            like war fronts, ice, mud etc… The robo’s brain or the control system now consist of 
+            two microcontrollers: an arduino and a nodemcu. For heavy uses we can use embedded 
+            systems. The robo right now has an extra payload capacity of 7kg and battery 
+            backup of 20-30 min in a single charge. Connectivity uses Wifi network systems 
+            (range upto 500meters) now, we can shift to any type of connectivity according 
+            to requirements.for autonomous function it uses GPS system. It includes sensors 
+            like ultrasonic sensor, pir sensor, IR sensor for multiple functions. 
+        </p>
+        <!-- <div class="buttond">
+            <a href="https://github.com/G-Robocraze/ESAM_PROJECT.git"><button type="button" id="readMoreButton"><img class="icon" src="../assets/icon/logo-github.svg">Details and programs</button></a>
+        </div> -->
+        <h2 class="head title-project1">Stacks used</h2>
+        <ul class="list">
+            <li class="list_item">MIT App Inventor</li>
+            <li class="list_item">Embedded C</li>
+            <li class="list_item">Python</li>
+        </ul>
+    </section>
+    <br>
+    <br>
+    <br>
+    
+    <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+    <script>
+        document.getElementById("home").addEventListener("click", function() {
+          // Redirect to page2.html
+          window.location.href = "../index.html";
+        });
+      </script>
+</body>
+</html>

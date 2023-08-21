@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiKa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="hero">
+        <nav>
+            <img src="../assets/img/logo.png" class="logo">
+            <img src="../assets/icon/home-outline.svg" class="home" id="home">
+        </nav>
+    </section>
+    <section class="gallery">
+        <div class="slider">
+            <div class="box">
+                <img src="../assets/img/projects/Miks/WhatsApp Image 2023-07-29 at 11.56.00 AM (1).jpeg" id="slider-1">
+                <img src="../assets/img/projects/Miks/WhatsApp Image 2023-07-29 at 11.56.00 AM.jpeg" id="slider-2">
+                <img src="../assets/img/projects/Miks/WhatsApp Image 2023-07-29 at 11.56.01 AM (1).jpeg" id="slider-3">
+                <img src="../assets/img/projects/Miks/WhatsApp Image 2023-07-29 at 11.56.01 AM.jpeg" id="slider-4">
+            </div>
+            <div class="slider-nav">
+                <a href="#slider-1"></a>
+                <a href="#slider-2"></a>
+                <a href="#slider-3"></a>
+                <a href="#slider-4"></a>
+            </div>
+        </div>
+        
+    </section>
+    <section class="details">
+        <div class="head">
+            <h1 class="title-project1">About <span class="title-project2">MiKa</span></h1>
+        </div>
+        <p>
+            MiKa is Semi-humanoid robot developed for the Kochi Metro Rail Limited to assist the passengers at the metro station. 
+            The robot will be guiding and providing instructions to ensure the safe transport of the passengers. 
+            It can also handle the usual FAQs of the passengers and assist them.
+
+            It can give floor navigation to the passengers and also greet them with a hand gesture. The greetings can be customised according to the age and gender of the passengers.
+            The robot is enables with AI-based speech recognition and will reply back to the passengers. 
+            It can also inform the passengers about the train timings and fares.
+
+            The design of the robot is a 4 wheeled drive with LIDAR and a depth camera for visual perception.  
+            The body of the robot are 3D printed and the main controller board is Jetson Xavier board, 
+            the motors and the sensors will be controlled by an Teensy4.1.
+            The intended audience is the people who travel by means of Kochi Metro. The audience includes people of all age groups which varies from small children to old people. 
+            Phase 1 of the product is set to help the officials of the Human Resource Department in guiding the customers in the metro station in various general FAQs. 
+            Also, the product deals with a great scope of engaging robots with people in public places. 
+            This could open a wide scope of the interaction of the same and its future scope. 
+            The success of the project could avoid the fear of people to interact with robots as well as their functioning.
+        </p>
+        <!-- <div class="buttond">
+            <a href="https://github.com/G-Robocraze/ESAM_PROJECT.git"><button type="button" id="readMoreButton"><img class="icon" src="../assets/icon/logo-github.svg">Details and programs</button></a>
+        </div> -->
+        <h2 class="head title-project1">Stacks used</h2>
+        <ul class="list">
+            <li class="list_item">ROS 2</li>
+            <li class="list_item">Embedded C</li>
+            <li class="list_item">Python-flask server</li>
+            <li class="list_item">Blender Animations</li>
+            <li class="list_item">Fusion 360(3D)</li>
+            <li class="list_item">PCB Designing</li>
+        </ul>
+    </section>
+    <br>
+    <br>
+    <br>
+    
+    <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+    <script>
+        document.getElementById("home").addEventListener("click", function() {
+          // Redirect to page2.html
+          window.location.href = "../index.html";
+        });
+      </script>
+</body>
+</html>

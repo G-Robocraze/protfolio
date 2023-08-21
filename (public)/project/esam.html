@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESAM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="hero">
+        <nav>
+            <img src="../assets/img/logo.png" class="logo">
+            <img src="../assets/icon/home-outline.svg" class="home" id="home">
+        </nav>
+    </section>
+    <section class="gallery">
+        <div class="slider">
+            <div class="box">
+                <img src="../assets/img/projects/esam/esam.jpg" id="slider-1">
+                <img src="../assets/img/projects/esam/circuit.jpg" id="slider-2">
+                <img src="../assets/img/projects/esam/webui1.png" id="slider-3">
+            </div>
+            <div class="slider-nav">
+                <a href="#slider-1"></a>
+                <a href="#slider-2"></a>
+                <a href="#slider-3"></a>
+            </div>
+        </div>
+        
+    </section>
+    <section class="details">
+        <div class="head">
+            <h1 class="title-project1">About <span class="title-project2">ESAM</span></h1>
+        </div>
+        <p>
+            Economic Sensing & Automation For Micro Grids(ESAM) brings out modern technology to the existing microgrids. 
+            The Internet of Things(IoT) refers to an interconnected network of physical devices, vehicles, buildings, and 
+            other objects that are embedded with sensors, software, and network connectivity, allowing them to collect and 
+            exchange data. The IoT allows for the automation and control of these connected devices, enabling them to 
+            communicate and interact with each other and with humans in a coordinated and intelligent manner. The IoT has the 
+            potential to transform a wide range of industries and applications, including manufacturing, transportation, agriculture, 
+            healthcare, and energy. We use IoT in microgrids to monitor the power specifications(Load, Voltage variations, Energy usage, etc..) 
+            and control the load to get more efficient and dynamic power distribution. The system is designed in a modular 
+            method that can be installed in any existing grid without affecting current systems. Complete control and monitoring are enabled 
+            through a web user interface that gives the user complete authority to control the functioning and gives a detailed analysis of the system.
+        </p>
+        <div class="buttond">
+            <a href="https://github.com/G-Robocraze/ESAM_PROJECT.git"><button type="button" id="readMoreButton"><img class="icon" src="../assets/icon/logo-github.svg">Details and programs</button></a>
+        </div>
+        <h2 class="head title-project1">Stacks used</h2>
+        <ul class="list">
+            <li class="list_item">Python -Flask server</li>
+            <li class="list_item">Embedded C</li>
+            <li class="list_item">Html-CSS(Bootstrap)</li>
+            <li class="list_item">MySQL DB</li>
+        </ul>
+    </section>
+    <br>
+    <br>
+    <br>
+    
+    <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+    <script>
+        document.getElementById("home").addEventListener("click", function() {
+          // Redirect to page2.html
+          window.location.href = "../index.html";
+        });
+      </script>
+</body>
+</html>
