@@ -71,13 +71,14 @@
         width: 100%;
         /* background-color: #1a1a1a; */
     }
-
-    .logo{
+    /* Regular navigation styles */
+    .logo {
         width: 90px;
         height: auto;
         cursor: pointer;
     }
-    nav{
+
+    nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -87,22 +88,90 @@
         position: relative;
         z-index: 5;
     }
-    nav ul li{
+
+    nav ul li {
         list-style: none;
         display: inline-block;
         padding: 0px 25px;
         z-index: 7;
     }
-    nav ul li a{
+
+    nav ul li a {
         text-decoration: none;
         color: white;
         font-weight: 500;
         font-size: 17px;
     }
-    nav ul li a:hover{
+
+    nav ul li a:hover {
         color: #2964fa;
         transition: 0.3s;
     }
+
+    /* Menu Toggle styles */
+    .menu-toggle {
+        display: none;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px auto;
+        transition: background-color 0.3s;
+    }
+
+    /* Responsive styles */
+    @media screen and (max-width: 768px) {
+        nav {
+            padding-left: 5%;
+            padding-right: 0%;
+        }
+
+        .menu-toggle {
+            display: block;
+            padding: 10px;
+        }
+
+        .menu-toggle.active .bar:nth-child(1) {
+            transform: rotate(-45deg) translate(-5px, 6px);
+        }
+
+        .menu-toggle.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+
+        .menu-toggle.active .bar:nth-child(3) {
+            transform: rotate(45deg) translate(-5px, -6px);
+        }
+
+        nav ul {
+            display: none;
+            position: absolute;
+            top: 80px;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.9);
+            width: 100%;
+            text-align: center;
+        }
+
+        .menu-toggle.active + ul {
+            display: block;
+        }
+
+        nav ul li {
+            display: block;
+            padding: 15px 0;
+        }
+
+        .logo {
+            padding-top: 15px;
+        }
+    }
+
+
     .main-container{
         display: inline-block;
         width: 100%;
@@ -549,6 +618,7 @@
         line-height: 1.5;
         color: #ccc;
       }
+    
     @media screen and (max-width: 1550px){
         .main-img{
             width: auto;
@@ -613,9 +683,57 @@
         #proj {
             grid-template-columns: repeat(1, 1fr);
         }
+        .title-project1 {
+            font-size: 30px;
+        }
           
     }
-    
+    .achcontainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #111;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .achcontainer h1 {
+    margin-top: 0;
+  }
+  .achievement {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #444;
+    padding: 20px 0;
+    opacity: 0; /* Initially hidden for animation */
+  }
+  .achievement:last-child {
+    border-bottom: none;
+  }
+  .achievement-icon {
+    margin-right: 20px;
+    color: #3498db;
+  }
+  .achievement-content {
+    flex: 1;
+  }
+  .achievement-content h2{
+    color: #fff;
+  }
+  .achievement-content p{
+    color: #f4f4f4;
+  }
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animated {
+    animation: fadeInUp 0.6s ease-in-out forwards; /* forwards to keep final state */
+  }
     /* Footer styles */
     footer {
       background-color: #333;
@@ -623,3 +741,37 @@
       padding: 1rem;
       text-align: center;
     }
+    #contactForm {
+        width: 80%;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #25252500;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     }
+     
+     /* Style form labels */
+     label {
+        display: block;
+        margin-bottom: 5px;
+     }
+     
+     /* Style form input and textarea fields */
+     input[type="text"],
+     input[type="email"],
+     input[type="submit"],
+     textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #2c2c2c;
+        border-radius: 5px;
+        font-size: 16px;
+     }
+     
+     /* Style the textarea specifically */
+     textarea {
+        height: 100px;
+     }

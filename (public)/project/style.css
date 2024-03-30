@@ -283,9 +283,9 @@
 
         .photo_grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
             gap: 20px;
-            padding: 10%;
+            padding: 5% 10%;
         }
         
         .photo_grid-item {
@@ -297,8 +297,7 @@
         }
         .video_grid-item {
             position: relative;
-            width: 200%;
-            padding-bottom: 10%; /* Maintain a 1:1 aspect ratio for the box */
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
             overflow: hidden;
         }
         
@@ -306,7 +305,9 @@
             position: absolute;
             width: 100%;
             height: 100%;
-        }
+            top: 0;
+            left: 0;
+        }        
         
         .photo_grid-item:hover {
             transform: scale(1.05);
@@ -332,7 +333,13 @@
       }
   
       @media screen and (max-width: 700px){
-            
+        .title-project1 {
+            font-size: 30px;
+        }
+        
+        .description {
+            font-size: 18px;
+        }
       }
       
       /* Footer styles */
